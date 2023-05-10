@@ -1,0 +1,104 @@
+/*Fontes que serão utilizadas 
+ Open Sans
+ Dosis
+ font-family: 'Dosis', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+body {
+    text-align: center;
+    margin: 64px;
+}
+
+.main {
+    width: 626px;
+    text-align: center;
+    margin: 64px auto 64px ;
+}
+.main img {
+    margin: 0 0 32px;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #3F3D56;
+    margin: 0 0 16px;
+}
+
+h1 span {
+    font-family:'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #EE24FF;
+}
+
+p {
+    width: 548px;
+    height: 107px;
+    margin: 16px auto 0px;
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #828282;
+
+    
+}
+
+p .marcadores {
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #3F3D56;
+}
+
+p .flutuar {
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #828282;
+}
+
+.texto-final {
+    width: 626px;
+    height: 21px;
+    margin: 32px auto;
+}
+
+#footer {
+margin: 64px auto;
+}
+
+.line {
+width: 391px;
+height: 0px;
+margin: 64px auto 16px;
+border: 1px solid #ECEFF2;
+}
+
+#footer a {
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #3F3D56;
+}
+
+#footer a + a {
+    margin-left: 42px;
+}
+
+#footer img {
+    width: 100%;
+    position: fixed;
+    margin: 40.83px auto;
+    left: 0;
+}
