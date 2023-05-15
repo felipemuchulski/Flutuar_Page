@@ -1,104 +1,87 @@
-/*Fontes que serão utilizadas 
- Open Sans
- Dosis
- font-family: 'Dosis', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
-body {
+main {
+    margin: 64px auto 64px;
     text-align: center;
-    margin: 64px;
-}
-
-.main {
     width: 626px;
-    text-align: center;
-    margin: 64px auto 64px ;
-}
-.main img {
-    margin: 0 0 32px;
+    height: 486px
 }
 
-h1 {
+main h1 {
+    width: 494px;
+    height: 40px;
     font-family: 'Dosis', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 40px;
-    color: #3F3D56;
-    margin: 0 0 16px;
+    margin: 32px auto 16px;
 }
 
-h1 span {
-    font-family:'Dosis', sans-serif;
-    font-style: normal;
+h1 strong {
     font-weight: bold;
-    font-size: 32px;
-    line-height: 40px;
     color: #EE24FF;
 }
 
-p {
-    width: 548px;
+.texto-1 {
+    width: 540px;
     height: 107px;
-    margin: 16px auto 0px;
-    font-family:'Open Sans', sans-serif;
-    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    line-height: 22px;
     color: #828282;
-
-    
+    margin: 0px auto 32px;
 }
 
-p .marcadores {
-    font-family:'Open Sans', sans-serif;
-    font-style: normal;
+.texto-1 strong {
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 15px;
     color: #3F3D56;
 }
 
-p .flutuar {
-    font-family:'Open Sans', sans-serif;
-    font-style: normal;
+.texto-1 span {
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 15px;
     color: #828282;
 }
 
-.texto-final {
+.texto-2 {
     width: 626px;
     height: 21px;
-    margin: 32px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #828282;
 }
 
-#footer {
-margin: 64px auto;
+footer{
+    width: 1024px;
+    height: 176px;
+    text-align: center;
+    margin: 0px auto 0px
 }
 
 .line {
-width: 391px;
-height: 0px;
-margin: 64px auto 16px;
-border: 1px solid #ECEFF2;
+    width: 391px;
+    height: 0px;
+    border: 1px solid #eceff2;
+    margin: 0px auto 16px;
 }
 
-#footer a {
-    text-decoration: none;
-    font-family:'Open Sans', sans-serif;
-    font-style: normal;
+footer a {
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 15px;
+    line-height: 147.68%;
     color: #3F3D56;
+    text-decoration: none;
+    
+
 }
 
-#footer a + a {
+footer a + a {
     margin-left: 42px;
 }
 
-#footer img {
-    width: 100%;
-    position: fixed;
-    margin: 40.83px auto;
-    left: 0;
+footer img {
+    margin: 40.83px auto 0px;
 }
